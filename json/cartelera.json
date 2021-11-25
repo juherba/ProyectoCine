@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombrePeli": "Spiderman: No way home",
+        "protagonista": "Tom Holand",
+        "duracion": "2h:39m",
+        "precioNormal": 12,
+        "precioDespectador": 5,
+        "precioFSemana": 20,
+        "img": "img/cartelera/spiderman.jpg"
+    },
+    {
+        "id": 2,
+        "nombrePeli": "Venom 2",
+        "protagonista": "Tom Hardy",
+        "duracion": "1h:37m",
+        "precioNormal": 12,
+        "precioDespectador": 5,
+        "precioFSemana": 20,
+        "img": "img/cartelera/venom2.png"
+    },
+    {
+        "id": 3,
+        "nombrePeli": "Avengers",
+        "protagonista": "Robert JR",
+        "duracion": "1h:45m",
+        "precioNormal": 12,
+        "precioDespectador": 5,
+        "precioFSemana": 20,
+        "img": "img/cartelera/avengers.png"
+    },
+    {
+        "id": 4,
+        "nombrePeli": "Eternals",
+        "protagonista": "Harry Styles",
+        "duracion": "2h:39m",
+        "precioNormal": 12,
+        "precioDespectador": 5,
+        "precioFSemana": 20,
+        "img": "img/cartelera/eternals.png"
+    },
+    {
+        "id": 5,
+        "nombrePeli": "Deadpool",
+        "protagonista": "Ryan Rainlons",
+        "duracion": "2h:11m",
+        "precioNormal": 12,
+        "precioDespectador": 5,
+        "precioFSemana": 20,
+        "img": "img/cartelera/deadpool.jpg"
+    },
+    {
+        "id": 6,
+        "nombrePeli": "Viuda Negra",
+        "protagonista": "Scarlett Johansson",
+        "duracion": "2h:20m",
+        "precioNormal": 12,
+        "precioDespectador": 5,
+        "precioFSemana": 20,
+        "img": "img/cartelera/viudanegra.jpg"
+    }
+]

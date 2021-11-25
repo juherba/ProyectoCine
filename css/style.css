@@ -1,0 +1,271 @@
+
+/* Import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:wght@200&display=swap');
+
+/* 
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+*/
+
+/* Variables de entorno */
+
+:root {
+    --main-color: #F6BD60;
+    --bg-color: #84A59D;
+    --resaltado: #F28482;
+    --bg-cards: #F7EDE2;
+    --other: #F5CAC3;
+    --font-main: 'Poppins', sans-serif;
+    --font-tittle: 'Bebas Neue', cursive;
+    --font-sec: 'Open Sans', sans-serif;
+}
+
+/* Reset css */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Default values */
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: white;
+}
+
+/* Header config */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+/* Logo container */
+
+.logo_container {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo_container img {
+    width: 75px;
+    margin-right: 5px;
+}
+
+.logo_container p {
+    font-size: 2.5em;
+    font-family: var(--font-tittle);
+}
+
+/* Login container */
+
+.login {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login input {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.login button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0px;
+    margin: 5px;
+    background-color: var(--main-color);
+    border: var(--main-color) solid 1px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.login button:hover {
+    background-color: transparent;
+    border: var(--main-color) solid 1px;
+    color: var(--main-color);
+    transition: .5s;
+}
+
+/* Nav main container */
+
+.nav {
+    width: 40%;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    min-width: 30%;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.459);
+    transition: .5s;
+}
+
+.nav button {
+    min-width: 20%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0px;
+    margin: 5px;
+    background-color: var(--main-color);
+    border: var(--main-color) solid 1px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+.nav button:hover {
+    background-color: transparent;
+    border: var(--main-color) solid 1px;
+    color: var(--main-color);
+    transition: .5s;
+}
+
+/* First div */
+
+.first-div{
+    background: url('../img/spidermanSlashArt.jpg') center center no-repeat;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.first-text {
+    background-color: rgba(0, 0, 0, 0.657);
+    padding: 20px 30px;
+    border-radius: 0px 10px 10px 0px;
+    width: 50%;
+}
+
+.first-text h1 {
+    color: var(--resaltado);
+    font-family: var(--font-tittle);
+    font-size: 4em;
+}
+
+.first-text p {
+    font-size: 1.4em;
+    margin: 10px 0px;
+}
+
+.first-text a {
+    color: var(--resaltado);
+    font-size: 1.3em;
+}
+
+/* Footer */
+
+
+footer {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social_media {
+    font-size: 2em;
+}
+
+.social_media a{
+    text-decoration: none;
+    color: white;
+}
+
+.social_media a:hover{
+    color: var(--main-color);
+    transition: .5s;
+}
+
+/* Cartelera config */
+
+#card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    height: 40%;
+    margin: 10px;
+}
+
+#card img{
+    width: 100%;
+}
+
+#items {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200vh;
+}
+
+#card button{
+    background-color: var(--resaltado);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0px;
+    width: 100%;
+    font-family: var(--font-sec);
+    color: white;
+    font-size: 1.2em;
+    border: var(--resaltado) solid 2px;
+    cursor: pointer;
+}
+
+#card button:hover{
+    background-color: transparent;
+    border: var(--resaltado) solid 2px;
+    transition: .5s;
+}
+
+#card h5{
+    font-size: 1.2em;
+    font-family: var(--font-sec);
+    text-align: center;
+}

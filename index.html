@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineZorrito</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="inicio()">
+    <div class="header_container">
+        <header>
+            <a href="index.html" class="logo_container">
+                <img src="img/logo.png" alt="Logo Cine">
+                <p>CineZorrito</p>
+            </a>
+            <div class="login" id="login">
+                <input type="text" name="user" id="user" placeholder="usuario">
+                <input type="text" name="pass" id="pass" placeholder="contraseña">
+                <button type="submit" class="entrar">Enviar</button>
+            </div>
+            <div class="nav" id="nav">
+                <a href="#">Inicio</a>
+                <a href="#">Cartelera</a>
+                <a href="#">Reserva</a>
+                <a href="#">Info</a>
+                <button onclick="logout()">Log-out</button>
+            </div>
+        </header>
+    </div>
+    <div class="first-div">
+        <div class="first-text">
+            <h1>NUEVO ESTRENO</h1>
+            <p>Ya esta disponible en nuestra cartelera la nueva pelicula de SPIDERMAN NO WAY HOME protagonizada por Tom Holand!</p>
+            <a href="cartelera.html">Ir a Ver...</a>
+        </div>
+    </div>
+    <div class="footer_container">
+        <footer>
+            <a href="index.html" class="logo_container">
+                <img src="img/logo.png" alt="Logo">
+                <p>CineZorrito</p>
+            </a>
+            <div class="social_media">
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href=""><ion-icon name="logo-youtube"></ion-icon></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
